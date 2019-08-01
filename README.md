@@ -265,4 +265,6 @@ file 1 is sorted
 </pre>
 
 ### 5. 끝 마치며
+  - makeUnsortedFile.cpp 를 활용해서 비정렬된 파일을 만들 수 있습니다.
+  - Visual code 에서 .vscode/tasks.json 파일을 사용하여 쉽게 빌드할 수 있습니다. (ctrl + shift + p) -> sorting 빌드 선택
   아직 프로젝트는 현재 진행형입니다.
