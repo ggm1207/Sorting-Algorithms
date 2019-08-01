@@ -3,7 +3,7 @@ Sorting-Algorithms
 ## 구건모 개인 프로젝트
 *****
 
-### 1. 개요
+### 1 개요
 
 ```
   c++ 공부 후 배웠던 문법을 사용해서 어떤 프로젝트를 해야지 재밌게 할 수 있을까 고민하다가 
@@ -13,7 +13,7 @@ Sorting-Algorithms
 
 <br><br>
 
-### 2. 목표
+### 2 목표
   * 가독성이 높은 코드
   * 재사용성이 쉬운 코드
   * template, virtual, inline, class ... 등 다양한 문법 사용하기
@@ -22,7 +22,7 @@ Sorting-Algorithms
   
 <br>
 
-### 3. 기본 클래스
+### 3 기본 클래스
 
 <br>
 <dl>
@@ -124,7 +124,7 @@ public:
 
 <br>
 
-### 4. 기본 클래스 활용 방법
+### 4 기본 클래스 활용 방법
 
 <br>
 
@@ -207,7 +207,7 @@ void InsertionSort<T>::sorting()
 }
 ```
 
-### 5. 실행 결과
+### 5 실행 결과
 
 **main.cpp**
 
@@ -271,7 +271,7 @@ file 1 is sorted
 file 2 is sorted
 </pre>
 
-### 5. 끝 마치며
+### 5 끝 마치며
   - makeUnsortedFile.cpp 를 활용해서 비정렬된 파일을 만들 수 있습니다.
   - Visual code 에서 .vscode/tasks.json 파일을 사용하여 쉽게 빌드할 수 있습니다. (ctrl + shift + p) -> sorting 빌드 선택
   - 아직 프로젝트는 현재 진행형입니다.
