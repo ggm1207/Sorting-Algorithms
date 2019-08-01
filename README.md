@@ -29,9 +29,7 @@ Sorting-Algorithms
 <dt>DataObject : 데이터를 처리하는 클래스입니다.</dt>
 <dd> 
 다양한 파일을 읽어서 데이터를 처리할 수 있도록 한다. 
-<br>현재는 txt 파일을 읽는 method 밖에 없지만 만약 csv 파일을 읽기 원한다면 AddingCsvFile 메소드를 추가 작성할 수 있다.<br>
-</dd>
-<dd>
+<br>현재는 txt 파일을 읽는 method 밖에 없지만 만약 csv 파일을 읽기 원한다면 AddingCsvFile 메소드를 추가 작성할 수 있다. <br>
 여러개의 파일을 저장할 수 있다.
 </dd>
 </dl> 
@@ -137,7 +135,7 @@ template typename <T>
 class InsertionSort : public SortBase <T>
 {
 public:
-  NewSortingMethod(DataObject<T>& copy);
+  InsertionSort(DataObject<T>& copy);
   void showInfo() const;
   void sorting();
   ~InsertionSort();
