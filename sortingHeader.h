@@ -1,0 +1,8 @@
+#include "./sortingMethod/DataObject.h"
+#include "./sortingMethod/BubbleSort.h"
+#include "./sortingMethod/InsertionSort.h"
+#include "./sortingMethod/SelectionSort.h"
+#include "./sortingMethod/HeapSort.h"
+#include "./sortingMethod/ShellSort.h"
+#include "./sortingMethod/MergeSort.h"
+#include "./sortingMethod/QuickSort.h"

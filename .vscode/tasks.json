@@ -1,0 +1,32 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "sorting",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "-o",
+        "main",
+        "main.cpp",
+        "./sortingMethod/DataObject.h",
+        "./sortingMethod/util.h",
+        "./sortingMethod/SortBase.h",
+        "./sortingMethod/BubbleSort.h",
+        "./sortingMethod/InsertionSort.h",
+        "./sortingMethod/HeapSort.h",
+        "./sortingMethod/ShellSort.h",
+        "./sortingMethod/MergeSort.h",
+        "./sortingMethod/QuickSort.h",
+        "SortHandler.h",
+        "sortingHeader.h"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ]
+    }
+  ]
+}
