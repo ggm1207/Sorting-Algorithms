@@ -214,9 +214,10 @@ void InsertionSort<T>::sorting()
 ```cpp
 int main(void)
 {
-  DataObject<long> test(4); // 숫자 확인 철저히
+  DataObject<long> test(4);
   test.AddingTextFile("./data/50K.txt", 50000);
   test.AddingTextFile("./data/500K.txt", 500000);
+  test.AddingTextFile("./data/5M.txt", 5000000);
 
   SortHandler * helper = new SortHandler();
   helper -> addSortingMethod(new InsertionSort<long>(test));
@@ -240,28 +241,34 @@ int main(void)
 Best : NlogN
 Avg  : NlogN
 Worst: NlogN
-file 0: Time to sort: 0.016958 s
-file 1: Time to sort: 0.232408 s
+file 0: Time to sort: 0.019948 s
+file 1: Time to sort: 0.224426 s
+file 2: Time to sort: 3.089253 s
 file 0 is sorted
 file 1 is sorted
+file 2 is sorted
 
 ------ Method: Merge Sort ------
 Best : NlogN
 Avg  : NlogN
 Worst: NlogN
-file 0: Time to sort: 0.010007 s
-file 1: Time to sort: 0.147607 s
+file 0: Time to sort: 0.009972 s
+file 1: Time to sort: 0.126701 s
+file 2: Time to sort: 1.374255 s
 file 0 is sorted
 file 1 is sorted
+file 2 is sorted
 
 ------ Method: Quick Sort ------
 Best : NlogN
 Avg  : NlogN
 Worst: N^2
-file 0: Time to sort: 0.012964 s
-file 1: Time to sort: 0.141609 s
+file 0: Time to sort: 0.009968 s
+file 1: Time to sort: 0.115572 s
+file 2: Time to sort: 1.229968 s
 file 0 is sorted
 file 1 is sorted
+file 2 is sorted
 </pre>
 
 ### 5. 끝 마치며
