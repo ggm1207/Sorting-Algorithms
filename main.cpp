@@ -9,8 +9,9 @@ int main(void)
   // but now i think overloading is a more better method than template.. 
   DataObject<long> test(4); // 숫자 확인 철저히
   test.AddingTextFile("./data/50K.txt", 50000);
-  // test.AddingTextFile("50K.txt", 50000);
-  // test.AddingTextFile("500K.txt", 500000);
+  test.AddingTextFile("./data/500K.txt", 500000);
+  test.AddingTextFile("./data/5M.txt", 5000000);
+  // test.AddingTextFile("./data/50M.txt", 50000000);
 
   // long * * arr = test.getData();
   // set_start();
